@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2025.9.30.0" projectFile="C:\Users\DELL\Desktop\Documentation Boose\Boose documentation.shfbproj" started="1/9/2026 9:20:30 AM">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\DELL\Desktop\Documentation Boose
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2025.9.30.0
+Copyright &#169; 2006-2025, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: E:\BOOSE_ASE\Boose_Application\Boose_Application\bin\Debug\net8.0-windows\BOOSE.dll
+    Found assembly &#39;E:\BOOSE_ASE\Boose_Application\Boose_Application\bin\Debug\net8.0-windows\BOOSE.dll&#39;
+Source: E:\BOOSE_ASE\Boose_Application\Boose_Application\bin\Debug\net8.0-windows\Boose_Application.dll
+    Found assembly &#39;E:\BOOSE_ASE\Boose_Application\Boose_Application\bin\Debug\net8.0-windows\Boose_Application.dll&#39;
+Source: E:\BOOSE_ASE\Boose_Application\Boose_Application\bin\Debug\net8.0-windows\Boose_Application.xml
+Source: E:\BOOSE_ASE\Boose_Application\BooseTest\bin\Debug\net8.0-windows\BooseTest.dll
+    Found assembly &#39;E:\BOOSE_ASE\Boose_Application\BooseTest\bin\Debug\net8.0-windows\BooseTest.dll&#39;
+Source: E:\BOOSE_ASE\Boose_Application\BooseTest\bin\Debug\net8.0-windows\BooseTest.xml
+
+Copying XML comments files
+    E:\BOOSE_ASE\Boose_Application\Boose_Application\bin\Debug\net8.0-windows\Boose_Application.xml -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Boose_Application.xml
+    E:\BOOSE_ASE\Boose_Application\BooseTest\bin\Debug\net8.0-windows\BooseTest.xml -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\BooseTest.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0249
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0850
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-f55029ee-5aa6-431f-ba1c-c5896bdad77c.proj]
+Build started 1/9/2026 9:20:45 AM.
+
+Project &quot;C:\Users\DELL\Desktop\Documentation Boose\Help\Working\GenerateRefInfo-f55029ee-5aa6-431f-ba1c-c5896bdad77c.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.14.23+b0019275ecd6d49bb192b2e055849e25419f1010)
+  c Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 3 assemblies for reflection and 1 dependency assemblies.
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Primitives (System.Drawing.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by BOOSE [C:\Users\DELL\Desktop\Documentation Boose\Help\Working\GenerateRefInfo-f55029ee-5aa6-431f-ba1c-c5896bdad77c.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.NonGeneric (System.Collections.NonGeneric, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by BOOSE [C:\Users\DELL\Desktop\Documentation Boose\Help\Working\GenerateRefInfo-f55029ee-5aa6-431f-ba1c-c5896bdad77c.proj]
+  Using framework redirect &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Boose_Application [C:\Users\DELL\Desktop\Documentation Boose\Help\Working\GenerateRefInfo-f55029ee-5aa6-431f-ba1c-c5896bdad77c.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by Boose_Application [C:\Users\DELL\Desktop\Documentation Boose\Help\Working\GenerateRefInfo-f55029ee-5aa6-431f-ba1c-c5896bdad77c.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel.Primitives (System.ComponentModel.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Boose_Application [C:\Users\DELL\Desktop\Documentation Boose\Help\Working\GenerateRefInfo-f55029ee-5aa6-431f-ba1c-c5896bdad77c.proj]
+  Using framework redirect &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Wrote information on 5 namespaces, 89 types, and 413 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;C:\Users\DELL\Desktop\Documentation Boose\Help\Working\GenerateRefInfo-f55029ee-5aa6-431f-ba1c-c5896bdad77c.proj&quot; (default targets).
+    Last step completed in 00:00:06.8894
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00.9605
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:01.0373
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:01.0127
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.2445
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0075
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.2771
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:02.1230
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0470
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\DELL\Desktop\Documentation Boose\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0798
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:BOOSE] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.AboutBOOSE] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.AboutBOOSE.about] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.AboutBOOSE.about] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.AboutBOOSE.ARRAYLIMIT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.AboutBOOSE.BODYLIMIT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.AboutBOOSE.COMPOUNCOMMANDLIMIT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.AboutBOOSE.MAXITTERATIONS] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.AboutBOOSE.MAXPROGRAMSIZE] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.AboutBOOSE.METHODLIMIT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.AboutBOOSE.SIZELIMIT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.AboutBOOSE.VARIABLELIMIT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.AboutBOOSE.Version] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Array] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.ArrayRestrictions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameterList&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.column] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.columns] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.columnS] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Array.Columns] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.GetIntArray(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.GetIntArray(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.GetIntArray(System.Int32,System.Int32)] Missing &lt;param name=&quot;row&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.GetIntArray(System.Int32,System.Int32)] Missing &lt;param name=&quot;col&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.GetRealArray(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.GetRealArray(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.GetRealArray(System.Int32,System.Int32)] Missing &lt;param name=&quot;row&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.GetRealArray(System.Int32,System.Int32)] Missing &lt;param name=&quot;col&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.intArray] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.PEEK] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.peekVar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.POKE] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.pokeValue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.ProcessArrayParametersCompile(System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.ProcessArrayParametersCompile(System.Boolean)] Missing &lt;param name=&quot;peekOrPoke&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.ProcessArrayParametersExecute(System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.ProcessArrayParametersExecute(System.Boolean)] Missing &lt;param name=&quot;peekOrPoke&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.realArray] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.row] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.rows] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.rowS] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Array.Rows] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;val&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;row&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;col&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.SetRealArray(System.Double,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.SetRealArray(System.Double,System.Int32,System.Int32)] Missing &lt;param name=&quot;val&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.SetRealArray(System.Double,System.Int32,System.Int32)] Missing &lt;param name=&quot;row&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Array.SetRealArray(System.Double,System.Int32,System.Int32)] Missing &lt;param name=&quot;col&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.valueInt] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Array.valueReal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Boolean] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Boolean.BoolValue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Boolean.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Boolean.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.BOOSEException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.BOOSEException.#ctor(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Call] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Call.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Call.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Canvas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Canvas.background_colour] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Circle(System.Int32,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Circle(System.Int32,System.Boolean)] Missing &lt;param name=&quot;radius&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Circle(System.Int32,System.Boolean)] Missing &lt;param name=&quot;filled&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Clear] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.DrawTo(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.DrawTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.DrawTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;y&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.getBitmap] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.getBitmap] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.MoveTo(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.MoveTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.MoveTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;y&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Canvas.PenColour] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;filled&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;filled&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Reset] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Set(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;red&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;green&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;blue&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Tri(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Tri(System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.Tri(System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.WriteText(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Canvas.WriteText(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Canvas.Xpos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Canvas.Ypos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.CanvasCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CanvasCommand.#ctor(BOOSE.ICanvas)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CanvasCommand.canvas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.CanvasCommand.Canvas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CanvasCommand.xPos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CanvasCommand.yPos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.CanvasException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CanvasException.#ctor(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Cast] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Cast.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Cast.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Cast.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Cast.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Circle] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Circle.#ctor(BOOSE.Canvas,System.Int32)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Circle.#ctor(BOOSE.Canvas,System.Int32)] Missing &lt;param name=&quot;radius&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Circle.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Circle.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameterList&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Circle.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Command] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Command.IsDouble] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Command.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Command.parameterList] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Command.ParameterList] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Command.parameters] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Command.Parameters] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Command.paramsint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Command.Paramsint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.ProcessParameters(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.ProcessParameters(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.ProcessParameters(System.String)] Missing &lt;param name=&quot;ParameterList&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Command.program] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Command.Program] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)] Missing &lt;param name=&quot;Program&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)] Missing &lt;param name=&quot;Params&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.ToString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Command.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.CommandException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandException.#ctor(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.CommandFactory] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandFactory.MakeCommand(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandFactory.MakeCommand(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandFactory.MakeCommand(System.String)] Missing &lt;param name=&quot;commandType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.CommandOneParameter] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandOneParameter.#ctor(BOOSE.Canvas)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandOneParameter.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandOneParameter.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameterList&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CommandOneParameter.param1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CommandOneParameter.param1unprocessed] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.CommandThreeParameters] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandThreeParameters.#ctor(BOOSE.Canvas)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandThreeParameters.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandThreeParameters.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameterList&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CommandThreeParameters.param3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CommandThreeParameters.param3unprocessed] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.CommandTwoParameters] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandTwoParameters.#ctor(BOOSE.Canvas)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandTwoParameters.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CommandTwoParameters.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameterList&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CommandTwoParameters.param2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.CommandTwoParameters.param2unprocessed] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.CompoundCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CompoundCommand.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CompoundCommand.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CompoundCommand.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.CompoundCommand.CorrespondingCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.CompoundCommand.ReduceRestrictions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.ConditionalCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ConditionalCommand.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.ConditionalCommand.Condition] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.ConditionalCommand.CondType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.ConditionalCommand.endLineNumber] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.ConditionalCommand.EndLineNumber] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ConditionalCommand.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.ConditionalCommand.LineNumber] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.ConditionalCommand.ReturnLineNumber] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.ConditionalCommand.conditionalTypes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.DrawTo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.DrawTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.DrawTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.DrawTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)] Missing &lt;param name=&quot;y&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.DrawTo.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Else] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Else.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Else.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Else.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Else.CorrespondingEnd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Else.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.End] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.End.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.End.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Evaluation] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Evaluation.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Evaluation.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameterList&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Evaluation.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Evaluation.evaluatedExpression] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Evaluation.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Evaluation.expression] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Evaluation.Expression] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Evaluation.Local] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Evaluation.ProcessExpression(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Evaluation.ProcessExpression(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Evaluation.ProcessExpression(System.String)] Missing &lt;param name=&quot;Expression&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Evaluation.value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Evaluation.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:BOOSE.Evaluation.varName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Evaluation.VarName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.FactoryException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.FactoryException.#ctor(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.For] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.For.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.For.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.For.From] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.For.LoopControlV] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.For.Step] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.For.To] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.ICanvas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)] Missing &lt;param name=&quot;radius&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)] Missing &lt;param name=&quot;filled&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Clear] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;y&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.getBitmap] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.getBitmap] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;y&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.ICanvas.PenColour] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)] Missing &lt;param name=&quot;filled&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Reset] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Set(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;red&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;green&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;blue&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.WriteText(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICanvas.WriteText(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.ICanvas.Xpos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.ICanvas.Ypos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.ICommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommand.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommand.CheckParameters(System.String[])] Missing &lt;param name=&quot;Parameters&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommand.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommand.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommand.Set(BOOSE.StoredProgram,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommand.Set(BOOSE.StoredProgram,System.String)] Missing &lt;param name=&quot;Program&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommand.Set(BOOSE.StoredProgram,System.String)] Missing &lt;param name=&quot;Params&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.ICommandFactory] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommandFactory.MakeCommand(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommandFactory.MakeCommand(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ICommandFactory.MakeCommand(System.String)] Missing &lt;param name=&quot;commandType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.IEvaluation] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.IEvaluation.Expression] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.IEvaluation.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.IEvaluation.VarName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.If] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Int] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Int.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Int.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.IParser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IParser.ParseCommand(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IParser.ParseCommand(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IParser.ParseCommand(System.String)] Missing &lt;param name=&quot;Line&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IParser.ParseProgram(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IParser.ParseProgram(System.String)] Missing &lt;param name=&quot;program&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.IStoredProgram] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.Add(BOOSE.Command)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.Add(BOOSE.Command)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.Add(BOOSE.Command)] Missing &lt;param name=&quot;C&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.AddVariable(BOOSE.Evaluation)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.AddVariable(BOOSE.Evaluation)] Missing &lt;param name=&quot;Variable&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.Commandsleft] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.Commandsleft] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.EvaluateExpression(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.EvaluateExpression(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.EvaluateExpression(System.String)] Missing &lt;param name=&quot;Exp&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.GetVarValue(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.GetVarValue(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.GetVarValue(System.String)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.IsExpression(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.IsExpression(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.IsExpression(System.String)] Missing &lt;param name=&quot;expression&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.IStoredProgram.PC] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.ResetProgram] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.Run] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.VariableExists(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.VariableExists(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.IStoredProgram.VariableExists(System.String)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Method] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Method.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Method.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Method.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Method.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Method.LocalVariables] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Method.MethodName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Method.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.MoveTo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.MoveTo.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Parser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Parser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)] Missing &lt;param name=&quot;Factory&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Parser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)] Missing &lt;param name=&quot;Program&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Parser.ParseCommand(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Parser.ParseCommand(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Parser.ParseCommand(System.String)] Missing &lt;param name=&quot;Line&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Parser.ParseProgram(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Parser.ParseProgram(System.String)] Missing &lt;param name=&quot;program&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.ParserException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.ParserException.#ctor(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Peek] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Peek.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Peek.CheckParameters(System.String[])] Missing &lt;param name=&quot;Parameters&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Peek.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Peek.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.PenColour] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.PenColour.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Poke] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Poke.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Poke.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Poke.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Poke.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Poke.Set(BOOSE.StoredProgram,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Poke.Set(BOOSE.StoredProgram,System.String)] Missing &lt;param name=&quot;Program&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Poke.Set(BOOSE.StoredProgram,System.String)] Missing &lt;param name=&quot;Params&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Real] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Real.Compile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Real.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.Real.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Rect] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Rect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Rect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Rect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Rect.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Rect.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameterList&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Rect.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.RestrictionException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.RestrictionException.#ctor(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.StoredProgram] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.#ctor(BOOSE.ICanvas)] Missing &lt;param name=&quot;canvas&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Add(BOOSE.Command)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Add(BOOSE.Command)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Add(BOOSE.Command)] Missing &lt;param name=&quot;C&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.AddMethod(BOOSE.Method)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.AddMethod(BOOSE.Method)] Missing &lt;param name=&quot;M&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.AddVariable(BOOSE.Evaluation)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.AddVariable(BOOSE.Evaluation)] Missing &lt;param name=&quot;Variable&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Commandsleft] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Commandsleft] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.DeleteVariable(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.DeleteVariable(System.String)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.EvaluateExpression(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.EvaluateExpression(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.EvaluateExpression(System.String)] Missing &lt;param name=&quot;Exp&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.EvaluateExpressionWithString(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.EvaluateExpressionWithString(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.EvaluateExpressionWithString(System.String)] Missing &lt;param name=&quot;expression&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.FindVariable(BOOSE.Evaluation)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.FindVariable(BOOSE.Evaluation)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.FindVariable(BOOSE.Evaluation)] Missing &lt;param name=&quot;Variable&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.FindVariable(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.FindVariable(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.FindVariable(System.String)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetMethod(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetMethod(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetMethod(System.String)] Missing &lt;param name=&quot;MethodName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVariable(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVariable(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVariable(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVariable(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVariable(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVariable(System.String)] Missing &lt;param name=&quot;VarName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVarValue(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVarValue(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.GetVarValue(System.String)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.IsExpression(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.IsExpression(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.IsExpression(System.String)] Missing &lt;param name=&quot;expression&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.IsValidProgram] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.IsValidProgram] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.NextCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.NextCommand] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:BOOSE.StoredProgram.PC] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Pop] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Pop] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Push(BOOSE.ConditionalCommand)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Push(BOOSE.ConditionalCommand)] Missing &lt;param name=&quot;Com&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.ResetProgram] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.Run] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.SetSyntaxStatus(System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.SetSyntaxStatus(System.Boolean)] Missing &lt;param name=&quot;status&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Boolean)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Boolean)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Double)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Double)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Double)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Int32)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Int32)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.VariableExists(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.VariableExists(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgram.VariableExists(System.String)] Missing &lt;param name=&quot;varName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.StoredProgramException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.StoredProgramException.#ctor(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.VarException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.VarException.#ctor(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.While] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BOOSE.Write] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Write.CheckParameters(System.String[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Write.CheckParameters(System.String[])] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSE.Write.Execute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Boose_Application] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.AppCanvas.Ellipse(System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.AppCanvas.Ellipse(System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;red&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;green&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;blue&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.AppCanvas.Star(System.Int32,System.Int32)] Missing &lt;param name=&quot;points&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.AppCanvas.Star(System.Int32,System.Int32)] Missing &lt;param name=&quot;radious&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.VariableStore.Restore(System.Collections.Generic.Dictionary`2)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Boose_Application.VariableStore.Restore(System.Collections.Generic.Dictionary`2)] Missing &lt;param name=&quot;snapshot&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Boose_Application.Commands] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Boose_Application.Facade] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:BooseTest] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:BooseTest.MultiLineTest] Missing &lt;summary&gt; documentation
+Processed 703 topic(s)
+442 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:49.2061
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\DELL\Desktop\Documentation Boose\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:01.6495
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:03.7761
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 981 files for the website content
+    Last step completed in 00:00:04.7442
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.9841
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 1/9/2026 9:21:57 AM.  Total time: 00:01:27.5662
+
+</buildStep>
+</shfbBuild>
